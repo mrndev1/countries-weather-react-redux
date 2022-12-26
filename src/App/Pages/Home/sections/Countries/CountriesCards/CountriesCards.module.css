@@ -1,0 +1,18 @@
+
+.list { display: flex; margin-top: 1rem; margin-bottom: 1rem; }
+.list_cards { display: flex; flex-wrap: wrap; }
+
+
+@media screen and (max-width: 460px) {
+    .list { flex-direction: column; align-items: center; gap: 10px; }   
+}
+
+@media screen and (min-width: 460px) and (max-width: 760px) {
+    .list { gap: 10px; }
+    .list_cards { flex-wrap: wrap; justify-content: space-between; gap: 20px; }
+}
+
+@media screen and (min-width: 760px) {
+    .list { justify-content: start; gap: 10px; }
+    .list_cards { flex-wrap: wrap; justify-content: space-between; gap: 20px; }
+}

@@ -1,0 +1,5 @@
+.page { height: 56rem; }
+.container {
+    background-color: #faebd7; border-radius: 5px;
+    height: 15%; width: 15%;
+}

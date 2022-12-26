@@ -1,0 +1,8 @@
+.container {
+    background-color: rgba(255, 255, 255, 0.168); border-radius: 5px; box-shadow: 0px 3px 10px -5px #FFFF;
+    padding: 30px; width: 17rem;
+}
+
+.container_item { display: flex; justify-content: space-between; align-items: center; }
+.container_item_img { background-color: #563cff; border-radius: 100%; }
+.container_item_txt { margin-top: 20px; margin-bottom: 20px; color: #FFFF; }

@@ -1,0 +1,4 @@
+body, h1, ul { padding: 0px; margin: 0px; }
+ul { list-style: none; }
+
+body { background-image: url(./img/bg-world-2.gif); background-size: cover; }
