@@ -18,9 +18,9 @@ export default function App () { return routes };
 const routes = (
     <Routes>
         <Route path='/' element={<LandingPage/>}/>
-        <Route path='/home' element={<Home/>}>
-            <Route path='/home' element={<Countries/>}/>
-            <Route path='/home/weather' element={<Weather/>}/>
+        <Route path='/Home' element={<Home/>}>
+            <Route path='/Home' element={<Countries/>}/>
+            <Route path='/Home/weather' element={<Weather/>}/>
         </Route>
         <Route path="*" element={<PageNotFound/>}/>
     </Routes>

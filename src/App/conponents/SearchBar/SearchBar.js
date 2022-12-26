@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { useLocation } from "react-router-dom";
 
 // style
@@ -28,6 +28,12 @@ export default function SearchBar () {
         }
         set_input('');
     };
+
+    let cl = useSelector(state => state.countriesReducer.loading);
+    let wl = useSelector(state => state.weatherReducer.loading);
+
+    console.log(`cl: ${cl} - wl: ${wl}`)
+
 
     return (
         <div className={s.container}>

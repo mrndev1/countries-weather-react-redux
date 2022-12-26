@@ -10,7 +10,7 @@ export default function LandingPage () {
             <div className={`${s.container} flex-column flex-justify-evenly flex-align-center`}>
                 <div>REACT - REDUX - API</div>
                 <div>SEARCH - FILTER</div>
-                <Link to='/home'>LET'S GO</Link>
+                <Link to='/Home'>LET'S GO</Link>
             </div>
         </div>
     )

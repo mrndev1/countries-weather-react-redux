@@ -4,7 +4,8 @@
 
 
 @media screen and (max-width: 460px) {
-    .list { flex-direction: column; align-items: center; gap: 10px; }   
+    .list { flex-direction: column; align-items: center; gap: 10px; }
+    .list_cards { gap: 10px; }
 }
 
 @media screen and (min-width: 460px) and (max-width: 1024px) {
