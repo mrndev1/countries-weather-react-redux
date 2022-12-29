@@ -3,3 +3,15 @@
     background-color: #faebd7; border-radius: 5px;
     height: 15%; width: 15%;
 }
+
+@media screen and (max-width: 460px) {
+    .container { width: 100% }
+}
+
+@media screen and (min-width: 460px) and (max-width: 1024px) {
+    .container { width: 50%; }
+}
+
+@media screen and (min-width: 1024px) {
+    .container { width: 20% }
+}
